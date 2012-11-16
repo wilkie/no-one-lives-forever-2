@@ -1,0 +1,13 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:601: checking for c++
+configure:632: checking whether the C++ compiler (bcc32  ) works
+configure:646: bcc32 -o conftest    conftest.C  1>&5
+Borland C++ 5.5 for Win32 Copyright (c) 1993, 2000 Borland
+Error E2194: Could not find file 'conftest.cpp'
+conftest.C:
+configure: failed program was:
+#line 642 "configure"
+#include "confdefs.h"
+main(){return(0);}
